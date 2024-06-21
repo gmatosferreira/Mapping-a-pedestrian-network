@@ -8,7 +8,7 @@ To achieve this, it was decided to use the [QField app](https://qfield.org/), a 
 
 <img src="./Case study area splitted.png" style="zoom:67%;" />
 
-The data collection process is described in the [Mapping the walking network.pdf](./Mapping the walking network.pdf) document, which describes:
+The data collection process is described in the [Mapping the walking network.pdf](./Mapping%20the%20walking%20network.pdf) document, which describes:
 
 - The types of data that where collected;
 - How to install and sign up to QField;
