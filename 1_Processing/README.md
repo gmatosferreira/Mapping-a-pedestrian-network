@@ -8,6 +8,8 @@ This phase consisted of aggregating the several files that resulted of each pers
 
 The first step was to gather all the different data collected in one layer (one per type of data collected - meaning one for intersections, one for obstacles and one for ways). So, for each type of data collected, the eight layers resulting from the field work where imported, as well as an empty geopackage with the same structure, [intersections.gpkg](./resources/intersections.gpkg), [ways.gpkg](./resources/ways.gpkg) and [obstacles.gpkg](./resources/obstacles.gpkg), where the output should be stored.
 
+> Notice that, to avoid ID overlapping in the aggregated layer, the original layer ID is incremented with a different thousand number. This also helps identifying the origin of each element in the final layer, to help debugging. 
+
 It is also important to mention that an extra layer ([intersections_extra.gpkg](./resources/intersections_extra.gpkg)) was created manually before running the script, to add some missing points that where identified by the person running the script and to map the ways edges (motivation explained in the next step).
 
 > The script can only be executed once. However, the execution of [`1_reset.py`](./1_reset.py) reverts it, clearing the output layers and allowing for a re-run of the previous script. This can be useful is some error is spotted in the original layers (never edited, only read in both scripts) and a correction is applied, requiring a propagation to the aggregated version.
