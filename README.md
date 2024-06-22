@@ -15,6 +15,7 @@ This work was proposed by [Professor Filipe Moura](https://fenix.tecnico.ulisboa
 0. [Preparation](./0_Preparation/README.md)
 0. [Processing](./1_Processing/README.md)
 0. [Result](./2_Result/README.md)
+0. [Contributing to Open Street Maps database](./3_OpenStreetMaps)
 
 
 

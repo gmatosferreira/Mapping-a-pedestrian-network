@@ -1,0 +1,3 @@
+# Contributing to Open Street Maps database
+
+Work in progress...
